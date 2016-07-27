@@ -1,0 +1,166 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.header_row1{
+    display:inline;    
+}
+.header_row1 .header_row_children{
+    background-color: #9bc233;
+    border-bottom: rgba(136, 125, 125, 0.54);
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+}
+.header_row2 .header_row_children{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.header_row2{
+    display:inline;    
+}
+.header_row_children{
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-height: 50%;
+    white-space: nowrap;
+}
+.full_space{
+    height:100%;
+}
+.repeated-item{
+    text-align: center;
+    font-size: large;
+/*
+    border-bottom: black;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+*/
+    padding: 10px;
+}
+.icon-spacing {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 200%;
+    color: floralwhite;
+}
+.header_row2 .header_row_children .icon-spacing {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 200%;
+    color: rgba(0, 0, 0, 0.61);
+}
+.header_row1 .header_row_children .text{
+    font-size: 30%;
+    color: white;
+    text-align: center;
+}
+.header_row2 .header_row_children .text{
+    font-size: 30%;
+    color: black;
+    text-align: center;
+}
+.icon-spacing-nav-bar {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-size: 270%;
+    color: #9bc233;
+}
+.side-nav-panel{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.side-nav-panel .text{
+    font-size: 30%;
+    color: black;
+    text-align: center;
+}
+md-sidenav, md-sidenav.md-locked-open, md-sidenav.md-closed.md-locked-open-add-active {
+ min-width: 100px !important;
+ width: 50vw !important;
+ max-width: 100px !important;
+}
